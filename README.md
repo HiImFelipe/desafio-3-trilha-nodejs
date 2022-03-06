@@ -12,6 +12,11 @@ Desafio que tem em mente treinar as habilidades do candidato em utilizar raw que
 
 ## Como rodar
 
+O projeto contém um arquivo docker-compose, que cria um banco de dados PostgreSQL em sua máquina, e que deve ser rodado à partir do comando:
+```
+docker-compose up -d
+```
+
 Este desafio não tem em mente ser rodado através de um script de start ou development. <br />
 Ele deve ser rodado à partir do comando:
 ```
