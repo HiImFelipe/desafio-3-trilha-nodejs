@@ -29,6 +29,8 @@ O projeto contém um arquivo docker-compose, que cria um banco de dados PostgreS
 ```
 docker-compose up -d
 ```
+**O processo pode ser ignorado caso você já tenha PostgreSQL rodando em sua máquina de forma local, mas altere os valores no arquivo ormconfig.json**
+
 4. Rode os testes
 
 Este desafio não tem em mente ser rodado através de um script de start ou development. <br />
