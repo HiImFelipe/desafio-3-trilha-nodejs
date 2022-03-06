@@ -12,10 +12,24 @@ Desafio que tem em mente treinar as habilidades do candidato em utilizar raw que
 
 ## Como rodar
 
+1. Clone o repositório
+```
+git clone https://github.com/FelipeSSDev/desafio-3-trilha-nodejs.git
+```
+
+2. Baixe as dependências
+```
+yarn install
+# ou npm install
+```
+
+3. Rode o container PostgreSQL
+
 O projeto contém um arquivo docker-compose, que cria um banco de dados PostgreSQL em sua máquina, e que deve ser rodado à partir do comando:
 ```
 docker-compose up -d
 ```
+4. Rode os testes
 
 Este desafio não tem em mente ser rodado através de um script de start ou development. <br />
 Ele deve ser rodado à partir do comando:
